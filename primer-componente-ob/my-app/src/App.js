@@ -1,20 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/pure/greeting';
-import FGreeting from './components/pure/fGreeting';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {/* Componente Greeting.jsx*/ }
-          <Greeting name="Quirama"> </Greeting>
-        </p>
-        <p>
-          <FGreeting name="Hernández"> </FGreeting>
-        </p>
+        {/*Componente listado de tareas */}
+        <TaskListComponent></TaskListComponent>
         <a
           className="App-link"
           href="https://reactjs.org"
