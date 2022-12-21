@@ -1,6 +1,5 @@
 import React, { Component, useEffect, useState } from 'react'
 
-
 export const Clock = () => {
 const [State, setState] = useState({
     // Se genera una fecha como estado inicial del componente
